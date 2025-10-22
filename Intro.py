@@ -11,77 +11,120 @@ with st.sidebar:
   )
   st.write(parrafo)
 
-url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
-st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
-st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
-col1, col2, col3 = st.columns(3)
 
 with col1:
  
- st.subheader("Conversión de texto a voz")
+ st.subheader("Detección de Objetos en Imágenes")
  image = Image.open('txt_to_audio2.png')
  st.image(image, width=190)
- st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
- url = "https://imultimod.streamlit.app/"
+ url = "https://isabelyolo.streamlit.app/"
  st.write(f"Texto a voz: [Enlace]({url})")
 
- st.subheader("Reconocimiento de Objetos")
+ st.subheader("Análisis de imágenes")
  image = Image.open('txt_to_audio.png')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
+ url = "https://visionisabelapp-bt9afjddxmus3nskd5c4bb.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
- st.subheader("Entrenando Modelos")
+ st.subheader("Análisis de polaridad y subjetividad")
  image = Image.open('OIG5.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
+ url = "https://bbeipob42jp8alcurgsuie.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
+ st.subheader(" Lector de Sensor MQTT")
+ image = Image.open('OIG5.jpg')
+ st.image(image, width=200)
+ url = "https://recepmqttisabel-v7a4dmdsj48oeg4vck8wae.streamlit.app/"
+ st.write(f"YOLO: [Enlace]({url})")
+
+ st.subheader(" Explorador de Arquitectura Brutalista 🇬🇧 (Intro)")
+ image = Image.open('OIG5.jpg')
+ st.image(image, width=200)
+ url = "https://intro-isabel-mctfjnlul2nxavcbmbuqgn.streamlit.app/"
+ st.write(f"YOLO: [Enlace]({url})")
+
+st.subheader("INTERFACES MULTIMODALES control por voz")
+ image = Image.open('OIG5.jpg')
+ st.image(image, width=200)
+ url = "https://ctrlvoiceisabel-bsia3noomxkcyffrknkbcv.streamlit.app/"
+ st.write(f"YOLO: [Enlace]({url})")
+
+
 with col2: 
- st.subheader("Conversión de voz a texto")
+ st.subheader("TRADUCTOR · AURA")
  image = Image.open('OIG8.jpg')
  st.image(image, width=200)
- st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
- url = "https://traductor-ab0sp9f6fi.streamlit.app/"
+ url = "https://traductorisabel-uvkvhzxyowgzgtvtm8taln.streamlit.app/"
  st.write(f"Voz a texto: [Enlace]({url})")
 
  st.subheader("Análisis de Datos")
  image = Image.open('data_analisis.png')
  st.image(image, width=190)
- st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
  url = "https://asistpy-csv.streamlit.app/"
  st.write(f"Datos: [Enlace]({url})")
 
- st.subheader("Trasnscriptor Audio y Video")
+ st.subheader("Reconocimiento de Imágenes")
  image = Image.open('OIG3.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como realizamos transcripciones de audio/video.") 
- url = "https://transcript-whisper.streamlit.app/"
+ url = "https://gestosmachine.streamlit.app/"
+ st.write(f"Transcriptor: [Enlace]({url})")
+
+ st.subheader("Reconocimiento óptico de Caracteres")
+ image = Image.open('OIG3.jpg')
+ st.image(image, width=200)
+ url = "https://ocrisabel-ryfbpkgiqtz9nro5vq5znt.streamlit.app/"
+ st.write(f"Transcriptor: [Enlace]({url})")
+
+ st.subheader("Canva inteligente")
+ image = Image.open('OIG3.jpg')
+ st.image(image, width=200)
+ url = "https://histinfisabelgit-cwhyqj6ypdcqhzlw6it3p7.streamlit.app/"
+ st.write(f"Transcriptor: [Enlace]({url})")
+
+ st.subheader("Generación Aumentada por Recuperación ")
+ image = Image.open('OIG3.jpg')
+ st.image(image, width=200)
+ url = "https://chatisabelpdf-ieutr2vhlb4tmhnznvsrpq.streamlit.app/"
  st.write(f"Transcriptor: [Enlace]({url})")
 
 
 with col3: 
- st.subheader("Generación en Contexto")
+ st.subheader("TF-IDF Interactivo — Preguntas y Respuestas (Español)")
  image = Image.open('Chat_pdf.png')
  st.image(image, width=190)
- st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
- url = "https://chatpdf-cc.streamlit.app/"
+ url = "https://tdfespisabel-aawiceq9b3tyu8cxmsamtn.streamlit.app/"
  st.write(f"RAG: [Enlace]({url})")
 
- st.subheader("Análisis de Imagen")
+ st.subheader("Tablero para dibujo")
  image = Image.open('OIG4.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
- url = "https://vision2-gpt4o.streamlit.app/"
+ url = "https://tab2git-fe2tebsswksrevwuaud8fr.streamlit.app/"
  st.write(f"Vision: [Enlace]({url})")
  
- st.subheader("Sistema Ciberfísico")
+ st.subheader("MQTT Control")
  image = Image.open('OIG6.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
- url = "https://vision2-gpt4o.streamlit.app/"
+ url = "https://sendcmqttisabel-9vbwhsystfshosy79muzr7.streamlit.app/"
  st.write(f"Vision: [Enlace]({url})")
+
+ st.subheader("BridgeSpeak — Tu puente de idiomas")
+ image = Image.open('OIG6.jpg')
+ st.image(image, width=200)
+ url = "https://ocr-audio-isabel-3cc87gyk7bcgbxnbvbjeg3.streamlit.app/"
+ st.write(f"Vision: [Enlace]({url})")
+
+
+ st.subheader("Tablero Inteligente")
+ image = Image.open('OIG6.jpg')
+ st.image(image, width=200)
+ url = "https://drawrecogisabelgit-ntkewzqrr9kpzzkcubuhhl.streamlit.app/"
+ st.write(f"Vision: [Enlace]({url})")
+
+ st.subheader(" Analizador de Texto")
+ image = Image.open('OIG6.jpg')
+ st.image(image, width=200)
+ url = "https://4mjf64a34dork5epmuo38o.streamlit.app/"
+ st.write(f"Vision: [Enlace]({url})")
+
 
 
