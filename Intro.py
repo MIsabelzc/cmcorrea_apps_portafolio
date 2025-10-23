@@ -15,36 +15,36 @@ with st.sidebar:
 with col1:
  
  st.subheader("Detección de Objetos en Imágenes")
- image = Image.open('txt_to_audio2.png')
+ image = Image.open('imagen1_col1.png')
  st.image(image, width=190)
  url = "https://isabelyolo.streamlit.app/"
  st.write(f"Texto a voz: [Enlace]({url})")
 
  st.subheader("Análisis de imágenes")
- image = Image.open('txt_to_audio.png')
+ image = Image.open('imagen2_col1.png')
  url = "https://visionisabelapp-bt9afjddxmus3nskd5c4bb.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
  st.subheader("Análisis de polaridad y subjetividad")
- image = Image.open('OIG5.jpg')
+ image = Image.open('3_col1.png')
  st.image(image, width=200)
  url = "https://bbeipob42jp8alcurgsuie.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
  st.subheader(" Lector de Sensor MQTT")
- image = Image.open('OIG5.jpg')
+ image = Image.open('4_col1.png')
  st.image(image, width=200)
  url = "https://recepmqttisabel-v7a4dmdsj48oeg4vck8wae.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
  st.subheader(" Explorador de Arquitectura Brutalista 🇬🇧 (Intro)")
- image = Image.open('OIG5.jpg')
+ image = Image.open('5_col1.png')
  st.image(image, width=200)
  url = "https://intro-isabel-mctfjnlul2nxavcbmbuqgn.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
 st.subheader("INTERFACES MULTIMODALES control por voz")
- image = Image.open('OIG5.jpg')
+ image = Image.open('6_col1.png')
  st.image(image, width=200)
  url = "https://ctrlvoiceisabel-bsia3noomxkcyffrknkbcv.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
