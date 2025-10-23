@@ -44,7 +44,7 @@ with col1:
  st.write(f"YOLO: [Enlace]({url})")
 
 st.subheader("INTERFACES MULTIMODALES control por voz")
- image = Image.open('6_col1.png')
+ image = Image.open('5_col1.png')
  st.image(image, width=200)
  url = "https://ctrlvoiceisabel-bsia3noomxkcyffrknkbcv.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
