@@ -85,7 +85,7 @@ with col2:
  st.write(f"Transcriptor: [Enlace]({url})")
 
  st.subheader("Generación Aumentada por Recuperación ")
- image = Image.open('6_col2.png
+ image = Image.open('6_col2.png')
  st.image(image, width=200)
  url = "https://chatisabelpdf-ieutr2vhlb4tmhnznvsrpq.streamlit.app/"
  st.write(f"Transcriptor: [Enlace]({url})")
