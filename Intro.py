@@ -52,7 +52,7 @@ st.subheader("INTERFACES MULTIMODALES control por voz")
 
 with col2: 
  st.subheader("TRADUCTOR · AURA")
- image = Image.open('OIG8.jpg')
+ image = Image.open('1_col2.png')
  st.image(image, width=200)
  url = "https://traductorisabel-uvkvhzxyowgzgtvtm8taln.streamlit.app/"
  st.write(f"Voz a texto: [Enlace]({url})")
