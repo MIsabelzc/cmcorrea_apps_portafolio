@@ -18,7 +18,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
  
  st.subheader("Detección de Objetos en Imágenes")
- image = Image.open('imagen1_col1.png')
+ image = Image.open('Imagen1_col1.png')
  st.image(image, width=190)
  url = "https://isabelyolo.streamlit.app/"
  st.write(f"Texto a voz: [Enlace]({url})")
